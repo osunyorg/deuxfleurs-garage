@@ -2,3 +2,7 @@ theme: osuny-hugo-theme-aaa
 paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
+deployment:
+  targets:
+    - name: "production"
+      URL: "s3://4e950949d281df4e16a5daa4c64e4065b8884f8d4b9c84e34da6a90c3046a8e8?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage"
