@@ -6,3 +6,8 @@ baseURL: https://deuxfleurs-garage.web.deuxfleurs.fr
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
 
+## DEUXFLEURS
+deployment:
+  targets:
+    - name: "production"
+      URL: "s3://deuxfleurs-garage?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage"
